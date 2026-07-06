@@ -3,487 +3,143 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Ioannis Koupidis — UX &amp; Operations</title>
-<meta name="description" content="Ioannis Koupidis. UX research and product work, backed by 20+ years of design and business operations.">
-<meta property="og:title" content="Ioannis Koupidis — UX &amp; Operations">
-<meta property="og:description" content="Twenty years of making things work — design, operations, and now UX. Curriculum vitae.">
+<title>Ioannis Koupidis · Program Coordinator & Creative Operations</title>
+<meta name="description" content="Ioannis Koupidis. Program coordinator, creative operator and founder with 20+ years across visual communication, cultural production, contracts, budgets, schedules and stakeholder coordination.">
+<meta property="og:title" content="Ioannis Koupidis · Program Coordinator & Creative Operations">
+<meta property="og:description" content="Creative production, contracts, budgeting, schedules and stakeholder support, built on twenty years of design and operational judgement.">
 <meta property="og:type" content="website">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' fill='%23FBFAF8'/%3E%3Ctext x='32' y='45' text-anchor='middle' font-family='Georgia,serif' font-size='30' fill='%231C1A17'%3EIK%3Ctspan fill='%23A5502F'%3E.%3C/tspan%3E%3C/text%3E%3C/svg%3E">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..700;1,9..144,300..700&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&family=Literata:ital,opsz,wght@0,7..72,300..700;1,7..72,300..700&family=Noto+Sans+Mono:wght@400;500&display=swap" rel="stylesheet">
 <style>
-  :root { --accent: #A5502F; }
-  * { margin: 0; padding: 0; box-sizing: border-box; }
-  body { background: #FBFAF8; -webkit-font-smoothing: antialiased; text-rendering: optimizeLegibility; font-family: 'Inter', system-ui, sans-serif; color: #1C1A17; min-height: 100vh; }
-  ::selection { background: #EDE4DA; }
-  @keyframes caret-blink { 0%, 100% { opacity: 1; } 50% { opacity: 0; } }
-
-  a.contact-link { color: #55504A; text-decoration: none; border-bottom: 1px solid transparent; padding-bottom: 1px; transition: color 0.2s ease, border-color 0.2s ease; }
-  a.contact-link:hover { color: #1C1A17; border-bottom-color: #C9C2B6; }
-  a.contact-link:focus-visible { outline: 2px solid #1C1A17; outline-offset: 3px; }
-
-  a.pdf-btn { margin-left: auto; display: inline-flex; align-items: center; gap: 8px; background: #1C1A17; color: #FBFAF8; text-decoration: none; font-size: 12.5px; font-weight: 500; padding: 11px 18px; border-radius: 6px; transition: background 0.2s ease, transform 0.2s ease; }
-  a.pdf-btn:hover { background: #000000; transform: translateY(-1px); }
-  a.pdf-btn:focus-visible { outline: 2px solid #1C1A17; outline-offset: 3px; }
-
-  a.case-link { margin-top: 4px; display: inline-flex; align-items: center; gap: 8px; color: var(--accent); text-decoration: none; font-family: 'IBM Plex Mono', 'Noto Sans Mono', monospace; font-size: 13px; font-weight: 500; border-bottom: 1.5px solid #E0CFC6; padding-bottom: 1px; width: fit-content; transition: border-color 0.2s ease; }
-  a.case-link:hover { border-bottom-color: var(--accent); }
-  a.case-link:focus-visible { outline: 2px solid #1C1A17; outline-offset: 3px; }
-
-  a.closing-link { color: var(--accent); text-decoration: none; border-bottom: 1.5px solid #E0CFC6; padding-bottom: 1px; transition: border-color 0.2s ease; }
-  a.closing-link:hover { border-bottom-color: var(--accent); }
-  a.closing-link:focus-visible { outline: 2px solid #1C1A17; outline-offset: 3px; }
-
-  /* Language switcher */
-  .lang-switch { display: flex; align-items: center; gap: 2px; margin-left: auto; font-family: 'IBM Plex Mono', 'Noto Sans Mono', monospace; font-size: 12px; }
-  .lang-btn { background: none; border: none; cursor: pointer; font: inherit; font-weight: 500; letter-spacing: 0.1em; color: #8A8378; padding: 4px 7px; border-bottom: 1.5px solid transparent; transition: color 0.2s ease, border-color 0.2s ease; }
-  .lang-btn:hover { color: #1C1A17; }
-  .lang-btn[aria-pressed="true"] { color: #1C1A17; border-bottom-color: var(--accent); }
-  .lang-btn:focus-visible { outline: 2px solid #1C1A17; outline-offset: 3px; }
-  .lang-sep { color: #D8D2C6; user-select: none; }
-
-  [data-reveal] { transition: opacity 0.7s cubic-bezier(0.2,0.6,0.2,1), transform 0.7s cubic-bezier(0.2,0.6,0.2,1); }
-  .js [data-reveal] { opacity: 0; transform: translateY(14px); }
-  .js [data-reveal].is-visible { opacity: 1; transform: none; }
-  @media (prefers-reduced-motion: reduce) {
-    .js [data-reveal] { opacity: 1; transform: none; transition: none; }
-  }
-
-  .caret { display: inline-block; width: 2px; height: 0.95em; background: var(--accent); margin-left: 2px; transform: translateY(0.16em); animation: caret-blink 1.1s step-end infinite; }
-  .reduced-motion .caret { animation: none; }
-
-  .hero-row { display: flex; align-items: center; gap: 32px; }
-  .hero-row > p { flex: 1; min-width: 0; }
-  .portrait { width: 148px; height: 148px; object-fit: cover; border-radius: 14px; border: 1px solid #E4DFD5; flex-shrink: 0; filter: grayscale(1) sepia(0.14) contrast(1.04) brightness(1.02); }
-
-  @media (max-width: 600px) {
-    header { padding-top: 64px !important; }
-    .hero-row { gap: 20px; align-items: flex-start; }
-    .portrait { width: 96px; height: 96px; border-radius: 10px; }
-  }
-
-  @media print {
-    .lang-switch { display: none; }
-  }
+  :root { --accent:#A5502F; --ink:#1C1A17; --muted:#6E685F; --soft:#8A8378; --line:#E8E4DB; --paper:#FBFAF8; --panel:#F7F2EA; }
+  *{margin:0;padding:0;box-sizing:border-box} body{background:var(--paper);-webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility;font-family:'Inter',system-ui,sans-serif;color:var(--ink);min-height:100vh} ::selection{background:#EDE4DA}
+  @keyframes caret-blink{0%,100%{opacity:1}50%{opacity:0}}
+  a{color:inherit}.wrap{max-width:760px;margin:0 auto;padding-left:24px;padding-right:24px}.section{padding-top:92px}.eyebrow{font-family:'IBM Plex Mono','Noto Sans Mono',monospace;font-size:12px;font-weight:500;letter-spacing:.14em;text-transform:uppercase;color:var(--soft)}
+  .section-head{display:flex;align-items:center;gap:16px;margin-bottom:28px}.section-head:after{content:"";height:1px;background:var(--line);flex:1}.serif{font-family:'Fraunces','Literata',serif}.mono{font-family:'IBM Plex Mono','Noto Sans Mono',monospace}.muted{color:var(--muted)}.soft{color:var(--soft)}
+  .contact-link,.text-link{color:#55504A;text-decoration:none;border-bottom:1px solid transparent;padding-bottom:1px;transition:color .2s ease,border-color .2s ease}.contact-link:hover,.text-link:hover{color:var(--ink);border-bottom-color:#C9C2B6}.contact-link:focus-visible,.text-link:focus-visible,.btn:focus-visible{outline:2px solid var(--ink);outline-offset:3px}
+  .btn{display:inline-flex;align-items:center;gap:8px;text-decoration:none;font-size:12.5px;font-weight:500;padding:11px 18px;border-radius:6px;transition:background .2s ease,transform .2s ease,border-color .2s ease}.btn:hover{transform:translateY(-1px)}.btn-dark{background:var(--ink);color:var(--paper)}.btn-dark:hover{background:#000}.btn-light{border:1px solid #DED6CB;color:var(--ink);background:#fffaf2}.btn-light:hover{border-color:#C9C2B6;background:#fff7ec}
+  [data-reveal]{transition:opacity .7s cubic-bezier(.2,.6,.2,1),transform .7s cubic-bezier(.2,.6,.2,1)}.js [data-reveal]{opacity:0;transform:translateY(14px)}.js [data-reveal].is-visible{opacity:1;transform:none}.caret{display:inline-block;width:2px;height:.95em;background:var(--accent);margin-left:2px;transform:translateY(.16em);animation:caret-blink 1.1s step-end infinite}.reduced-motion .caret{animation:none}
+  header{padding-top:104px;display:flex;flex-direction:column;gap:28px}.topline{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:10px 20px}h1{font-weight:480;font-size:clamp(46px,8.5vw,78px);line-height:1.02;letter-spacing:-.018em;text-wrap:balance}.hero-row{display:grid;grid-template-columns:1fr 148px;gap:32px;align-items:center}.tagline{font-weight:400;font-size:clamp(20px,3vw,25px);line-height:1.48;color:#403B35;max-width:35em;text-wrap:balance}.portrait{width:148px;height:148px;object-fit:cover;border-radius:14px;border:1px solid #E4DFD5;filter:grayscale(1) sepia(.14) contrast(1.04) brightness(1.02)}.nav{display:flex;flex-wrap:wrap;align-items:center;gap:10px 16px;padding-top:8px;font-family:'IBM Plex Mono','Noto Sans Mono',monospace;font-size:13px}.nav .spacer{flex:1 1 auto}
+  .lead{font-size:17px;line-height:1.75;color:#3F3A33;text-wrap:pretty}.skills-line{margin-top:20px;font-size:12px;line-height:2.1;color:var(--soft)}
+  .fit-card{padding:34px;background:var(--panel);border:1px solid #E7DECE;border-radius:16px;box-shadow:0 18px 45px rgba(28,26,23,.045)}.fit-intro{font-size:16px;line-height:1.72;color:#4F4941;max-width:64ch;text-wrap:pretty}.fit-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:12px;margin-top:24px}.fit-item{border:1px solid #E4DFD5;border-radius:13px;background:#fffdf9;padding:18px}.fit-item h3{font-size:15px;font-weight:600;letter-spacing:-.01em;margin-bottom:8px}.fit-item p{font-size:14px;line-height:1.58;color:#5B554D}.accent{color:var(--accent)}
+  .metric-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin-top:18px}.metric{border:1px solid #E4DFD5;border-radius:12px;padding:13px 12px;background:#fffdf9}.metric strong{display:block;font-family:'Fraunces','Literata',serif;font-size:24px;font-weight:520;color:var(--accent);line-height:1}.metric span{display:block;margin-top:7px;font-size:11px;line-height:1.35;color:var(--muted)}
+  .project-card{display:grid;grid-template-columns:1.05fr .95fr;gap:28px;padding:30px;background:#fffdf9;border:1px solid #E7DECE;border-radius:16px}.project-title{font-size:21px;font-weight:600;letter-spacing:-.02em}.project-desc{font-size:15.5px;line-height:1.7;color:#4F4941;margin-top:12px;text-wrap:pretty}.pill-row{display:flex;flex-wrap:wrap;gap:8px;margin-top:18px}.pill{font-family:'IBM Plex Mono','Noto Sans Mono',monospace;font-size:11px;color:var(--muted);border:1px solid #E4DFD5;border-radius:999px;padding:4px 11px;background:#FBFAF8}.case-link{margin-top:22px;display:inline-flex;align-items:center;gap:8px;color:var(--accent);text-decoration:none;font-family:'IBM Plex Mono','Noto Sans Mono',monospace;font-size:13px;font-weight:500;border-bottom:1.5px solid #E0CFC6;padding-bottom:1px;width:fit-content}.case-link:hover{border-bottom-color:var(--accent)}.mini-note{border:1px solid #E5DDD0;border-radius:14px;background:#F7F2EA;padding:18px;display:flex;flex-direction:column;gap:12px}.mini-note p{font-size:13.5px;line-height:1.6;color:#5B554D}.mini-stat{font-family:'IBM Plex Mono','Noto Sans Mono',monospace;font-size:11px;color:var(--soft)}
+  .era{display:flex;align-items:baseline;gap:12px;padding:40px 0 8px}.dot{width:7px;height:7px;border-radius:50%;background:var(--accent);transform:translateY(-1px);flex:0 0 auto}.job{padding:24px 0 28px;border-bottom:1px solid #EFEBE3;display:flex;flex-direction:column;gap:14px}.job:last-child{border-bottom:0}.job-top{display:flex;flex-wrap:wrap;align-items:baseline;gap:6px 16px}.job h4{font-size:17px;font-weight:600;letter-spacing:-.01em}.date{margin-left:auto;font-size:12.5px;color:var(--soft);white-space:nowrap}.job p{font-size:15.5px;line-height:1.7;color:#55504A;max-width:62ch;text-wrap:pretty}
+  .edu-row{display:flex;flex-wrap:wrap;align-items:baseline;gap:4px 16px;padding:18px 0;border-bottom:1px solid #EFEBE3}.edu-row:last-child{border-bottom:0}.langs{display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:20px}.closing{padding-top:116px;padding-bottom:96px}.closing p{font-style:italic;font-weight:400;font-size:clamp(23px,4vw,29px);line-height:1.45;text-wrap:balance}.closing-link{color:var(--accent);text-decoration:none;border-bottom:1.5px solid #E0CFC6;padding-bottom:1px}.closing-link:hover{border-bottom-color:var(--accent)}footer{border-top:1px solid #EFEBE3}footer p{padding-top:36px;padding-bottom:64px;font-size:12px;line-height:1.8;color:var(--soft)}
+  @media(max-width:760px){.fit-grid,.project-card{grid-template-columns:1fr}.metric-grid{grid-template-columns:repeat(2,1fr)}}@media(max-width:600px){header{padding-top:64px}.hero-row{grid-template-columns:1fr 96px;gap:20px;align-items:start}.portrait{width:96px;height:96px;border-radius:10px}.nav .spacer{display:none}.fit-card,.project-card{padding:24px}.metric-grid{grid-template-columns:1fr 1fr}}@media print{.section{padding-top:48px}.btn{border:0;padding:0}.nav{gap:10px 20px}.project-card,.fit-card{box-shadow:none}}
 </style>
 </head>
 <body>
+<main>
+<header class="wrap">
+  <div class="topline">
+    <p class="eyebrow">Curriculum vitae&nbsp;&nbsp;·&nbsp;&nbsp;Athens-based</p>
+  </div>
+  <h1 class="serif">Ioannis Koupidis<span style="color:var(--accent)">.</span></h1>
+  <div class="hero-row">
+    <p class="serif tagline">Twenty years of coordinating <em id="role-word" style="font-style:italic;color:var(--accent)">people.</em><span class="caret" aria-hidden="true"></span></p>
+    <img class="portrait" id="portrait" src="portrait.jpg" alt="Portrait of Ioannis Koupidis" width="720" height="720">
+  </div>
+  <nav id="contact-nav" aria-label="Contact" class="nav">
+    <a class="contact-link" href="tel:+306981323092">+30 698 132 3092</a>
+    <a class="contact-link" href="mailto:gkoupidis@gmail.com">gkoupidis@gmail.com</a>
+    <span class="soft">Athens</span>
+    <span class="spacer"></span>
+    <a class="btn btn-light" href="https://www.linkedin.com/in/koupidisyannis/" target="_blank" rel="noopener" aria-label="LinkedIn profile" title="LinkedIn"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" style="display:block"><path d="M20.45 20.45h-3.55v-5.57c0-1.33-.03-3.04-1.85-3.04-1.85 0-2.14 1.45-2.14 2.94v5.67H9.36V9h3.41v1.56h.05c.47-.9 1.63-1.85 3.36-1.85 3.6 0 4.27 2.37 4.27 5.45v6.29zM5.34 7.43a2.06 2.06 0 1 1 0-4.12 2.06 2.06 0 0 1 0 4.12zM7.12 20.45H3.56V9h3.56v11.45z"/></svg></a>
+    <a class="btn btn-light" href="https://ioanniskp.github.io/-agent-x-case-study/">Selected project <span aria-hidden="true">→</span></a>
+    <a class="btn btn-dark" href="CV_Ioannis_Koupidis.pdf" download>Download PDF <span aria-hidden="true">↓</span></a>
+  </nav>
+</header>
 
-<main style="font-family: 'Inter', system-ui, sans-serif; color: #1C1A17; background: #FBFAF8; min-height: 100vh; padding-bottom: 0px">
+<section data-reveal class="wrap section">
+  <div class="section-head"><h2 class="eyebrow">Profile</h2></div>
+  <p class="lead">Founder and creative professional with 20+ years across visual communication, cultural production and business operations. I have run companies, managed contracts and budgets, coordinated people across parallel commitments, and supported creative work from idea to delivery. The through-line is <strong>production sensitivity</strong>, <strong>operational control</strong> and <strong>careful support for the people doing the work</strong>.</p>
+  <p class="mono skills-line">Program coordination&nbsp;&nbsp;·&nbsp;&nbsp;event production&nbsp;&nbsp;·&nbsp;&nbsp;contracts &amp; deliverables&nbsp;&nbsp;·&nbsp;&nbsp;budget tracking&nbsp;&nbsp;·&nbsp;&nbsp;stakeholder relations&nbsp;&nbsp;·&nbsp;&nbsp;community support</p>
+</section>
 
-  <!-- ============ HERO ============ -->
-  <header style="max-width: 720px; margin: 0 auto; padding: 104px 24px 0; display: flex; flex-direction: column; gap: 28px">
-    <div style="display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 10px 20px">
-      <p data-t="kicker" style="margin: 0; font-family: 'IBM Plex Mono', 'Noto Sans Mono', monospace; font-size: 12px; font-weight: 500; letter-spacing: 0.14em; text-transform: uppercase; color: #8A8378">Curriculum vitae&nbsp;&nbsp;·&nbsp;&nbsp;Stockholm, Sweden</p>
-      <!-- Language selector: real <button>s (keyboard & screen-reader friendly); hidden in print via @media print -->
-      <div class="lang-switch" role="group" aria-label="Language">
-        <button type="button" class="lang-btn" data-lang="en" aria-pressed="true" lang="en" aria-label="English">EN</button>
-        <span class="lang-sep" aria-hidden="true">/</span>
-        <button type="button" class="lang-btn" data-lang="sv" aria-pressed="false" lang="sv" aria-label="Svenska">SV</button>
-      </div>
+<section data-reveal class="wrap section">
+  <div class="section-head"><h2 class="eyebrow">Operational proof</h2></div>
+  <div class="metric-grid">
+    <div class="metric"><strong>25+</strong><span>public procurement contracts won</span></div>
+    <div class="metric"><strong>140+</strong><span>physicians coordinated across assignments</span></div>
+    <div class="metric"><strong>50M+</strong><span>SEK in managed contracts</span></div>
+    <div class="metric"><strong>All</strong><span>Swedish hospitals covered during the last 3 years</span></div>
+  </div>
+</section>
+
+<section data-reveal class="wrap section">
+  <div class="section-head"><h2 class="eyebrow">Fit for Onassis AiR</h2></div>
+  <article class="fit-card">
+    <p class="fit-intro">I have not run an artist residency yet. I have spent twelve years running something with the same moving parts: people on parallel schedules, contracts, budgets and institutions that all need to stay aligned, after a decade inside creative production.</p>
+    <div class="fit-grid">
+      <div class="fit-item"><h3>Coordination at scale</h3><p>Twelve years scheduling 140+ physicians across parallel hospital assignments: matching people, timelines and institutional requirements, and re-planning calmly when any of them changed.</p></div>
+      <div class="fit-item"><h3>Contracts, budgets &amp; cash flow</h3><p>25+ public procurement contracts won and administered personally, with consultant agreements, invoicing, cash-flow monitoring, deliverable tracking and ISO 9001/14001 compliance.</p></div>
+      <div class="fit-item"><h3>Fluent in creative work</h3><p>Thirteen years in Athens design and production, from branding and print to photography direction and runway material for Milan Fashion Week. I speak the language of the people a residency serves.</p></div>
+      <div class="fit-item"><h3>Participant care</h3><p>Specialists on assignment need contracts handled, questions answered and problems solved before they grow. That was my daily work for over a decade, in Greek, English and Swedish.</p></div>
     </div>
-    <h1 data-t="name" style="margin: 0; font-family: 'Fraunces', 'Literata', serif; font-weight: 480; font-size: clamp(46px, 8.5vw, 78px); line-height: 1.02; letter-spacing: -0.018em; text-wrap: balance">Ioannis Koupidis<span style="color: var(--accent)">.</span></h1>
-    <div class="hero-row">
-      <p id="tagline" data-t="tagline" style="margin: 0; font-family: 'Fraunces', 'Literata', serif; font-weight: 400; font-size: clamp(19px, 3vw, 23px); line-height: 1.5; color: #4A453D; max-width: 34em">Twenty years of making things work as a <em id="role-word" style="font-style: italic; color: var(--accent)">project manager.</em><span class="caret" aria-hidden="true"></span></p>
-      <img class="portrait" id="portrait" src="portrait.jpg" alt="Portrait of Ioannis Koupidis" width="720" height="720">
+  </article>
+</section>
+
+<section data-reveal class="wrap section">
+  <div class="section-head"><h2 class="eyebrow">Selected project</h2></div>
+  <article class="project-card">
+    <div>
+      <p class="eyebrow">Research-led coordination</p>
+      <h3 class="project-title">Agent X <span class="muted" style="font-weight:400">· UX case study</span></h3>
+      <p class="project-desc">A structured research and design project moving from interviews to personas, an emotional journey map, annotated wireframes and usability testing. Included because it shows how I document needs, translate complexity into a clear structure, and support decision-making through evidence.</p>
+      <div class="pill-row"><span class="pill">User interviews</span><span class="pill">Documentation</span><span class="pill">Journey mapping</span><span class="pill">Testing</span></div>
+      <a class="case-link" href="https://ioanniskp.github.io/-agent-x-case-study/">Open full case study <span aria-hidden="true">→</span></a>
     </div>
-    <nav id="contact-nav" aria-label="Contact" style="display: flex; flex-wrap: wrap; align-items: center; gap: 10px 26px; padding-top: 8px; font-family: 'IBM Plex Mono', 'Noto Sans Mono', monospace; font-size: 13px">
-      <a class="contact-link" href="tel:+46739558253">+46 73 955 82 53</a>
-      <a class="contact-link" href="mailto:gkoupidis@gmail.com">gkoupidis@gmail.com</a>
-      <span data-t="location" style="color: #8A8378">Stockholm, Sweden</span>
-      <a class="pdf-btn" href="CV_Ioannis_Koupidis.pdf"><span data-t="pdfBtn">Download PDF</span> <span aria-hidden="true">↓</span></a>
-    </nav>
-  </header>
-
-  <!-- ============ PROFILE ============ -->
-  <section data-reveal style="max-width: 720px; margin: 0 auto; padding: 96px 24px 0">
-    <div style="display: flex; align-items: center; gap: 16px; margin-bottom: 28px">
-      <h2 data-t="profileH" style="margin: 0; font-family: 'IBM Plex Mono', 'Noto Sans Mono', monospace; font-size: 12px; font-weight: 500; letter-spacing: 0.14em; text-transform: uppercase; color: #8A8378">Profile</h2>
-      <span aria-hidden="true" style="flex: 1; height: 1px; background: #E8E4DB"></span>
+    <div class="mini-note" aria-hidden="true">
+      <p><strong>Why it matters here:</strong> artistic residency programs also depend on listening, interpreting needs, documenting clearly and turning ambiguity into a plan people can act on.</p>
+      <p class="mini-stat">8 interviews · 2 personas · 3 usability sessions · research → validated concept</p>
     </div>
-    <p data-t="profileText" style="margin: 0; font-size: 17px; line-height: 1.75; color: #3F3A33; text-wrap: pretty">Multidisciplinary <strong style="font-weight: 600; color: #1C1A17">designer and founder</strong> with 20+ years across visual communication, brand experience, and business operations — a decade in Athens working with fashion houses, food brands, and agencies, then twelve years in Stockholm running a staffing company with an <strong style="font-weight: 600; color: #1C1A17">ISO 9001 and ISO 14001 certified</strong> quality management system, coordinating contracts, schedules, budgets, and people across parallel assignments. Recently completed a UX design program at Medieinstitutet Stockholm and now pivoting deliberately into <strong style="font-weight: 600; color: #1C1A17">UX research and product work</strong>, with a method grounded in user interviews, usability testing, clear documentation, and attention to detail.</p>
-    <p data-t="skillsLine" style="margin: 20px 0 0; font-family: 'IBM Plex Mono', 'Noto Sans Mono', monospace; font-size: 12px; line-height: 2.1; color: #8A8378">User interviews&nbsp;&nbsp;·&nbsp;&nbsp;usability testing&nbsp;&nbsp;·&nbsp;&nbsp;personas &amp; journey mapping&nbsp;&nbsp;·&nbsp;&nbsp;contract administration&nbsp;&nbsp;·&nbsp;&nbsp;scheduling&nbsp;&nbsp;·&nbsp;&nbsp;budgeting &amp; cash flow&nbsp;&nbsp;·&nbsp;&nbsp;public procurement&nbsp;&nbsp;·&nbsp;&nbsp;stakeholder relations</p>
-  </section>
+  </article>
+</section>
 
-  <!-- ============ SELECTED WORK ============ -->
-  <section data-reveal style="max-width: 720px; margin: 0 auto; padding: 96px 24px 0">
-    <div style="display: flex; align-items: center; gap: 16px; margin-bottom: 28px">
-      <h2 data-t="workH" style="margin: 0; font-family: 'IBM Plex Mono', 'Noto Sans Mono', monospace; font-size: 12px; font-weight: 500; letter-spacing: 0.14em; text-transform: uppercase; color: #8A8378">Selected work</h2>
-      <span aria-hidden="true" style="flex: 1; height: 1px; background: #E8E4DB"></span>
-    </div>
-    <article style="display: flex; flex-direction: column; gap: 14px; padding: 28px; background: #F7F2EA; border: 1px solid #E7DECE; border-radius: 12px">
-      <div style="display: flex; flex-wrap: wrap; align-items: baseline; gap: 6px 16px">
-        <h3 data-t="agentTitle" style="margin: 0; font-size: 17px; font-weight: 600; letter-spacing: -0.01em; color: #1C1A17">Agent X <span style="font-weight: 400; color: #6E685F">— UX case study</span></h3>
-        <span style="margin-left: auto; font-family: 'IBM Plex Mono', 'Noto Sans Mono', monospace; font-size: 12.5px; color: #8A8378; white-space: nowrap">Medieinstitutet Stockholm, 2026</span>
-      </div>
-      <p data-t="agentDesc" style="margin: 0; font-size: 15.5px; line-height: 1.7; color: #55504A; max-width: 62ch; text-wrap: pretty">Redesigning new-player onboarding for a notoriously punishing hardcore shooter. Eight player interviews, two personas, an emotional journey map, annotated wireframes, and three think-aloud usability sessions, from raw research to a validated concept for an in-world guidance companion.</p>
-      <div style="display: flex; flex-wrap: wrap; gap: 8px; padding-top: 2px">
-        <span data-t="agentTag1" style="font-family: 'IBM Plex Mono', 'Noto Sans Mono', monospace; font-size: 11px; color: #6E685F; border: 1px solid #E4DFD5; border-radius: 999px; padding: 4px 11px">User research</span>
-        <span data-t="agentTag2" style="font-family: 'IBM Plex Mono', 'Noto Sans Mono', monospace; font-size: 11px; color: #6E685F; border: 1px solid #E4DFD5; border-radius: 999px; padding: 4px 11px">Usability testing</span>
-        <span data-t="agentTag3" style="font-family: 'IBM Plex Mono', 'Noto Sans Mono', monospace; font-size: 11px; color: #6E685F; border: 1px solid #E4DFD5; border-radius: 999px; padding: 4px 11px">Wireframes</span>
-      </div>
-      <a class="case-link" href="https://ioanniskp.github.io/-agent-x-case-study/"><span data-t="agentLink">View case study</span> <span aria-hidden="true">→</span></a>
-    </article>
-  </section>
+<section class="wrap section">
+  <div data-reveal class="section-head"><h2 class="eyebrow">Experience</h2></div>
+  <div data-reveal class="era"><span class="dot"></span><h3 class="mono" style="font-size:12.5px;font-weight:500;letter-spacing:.06em;color:#55504A">Operations & coordination&nbsp;&nbsp;·&nbsp;&nbsp;Stockholm&nbsp;&nbsp;·&nbsp;&nbsp;2011&nbsp;→</h3></div>
+  <article data-reveal class="job">
+    <div class="job-top"><h4>Founder &amp; CEO <span class="muted" style="font-weight:400">· Konduko AB</span></h4><span class="date mono">2012–2025</span></div>
+    <p>Founded and ran a specialist healthcare staffing company serving Swedish public healthcare. Won public procurement contracts independently and managed contract administration, consultant agreements, schedules across parallel assignments, budgeting, invoicing, cash-flow monitoring, physician recruitment, vetting, and day-to-day client and consultant relations. Twelve years of keeping complex commitments, people, money and deadlines in balance.</p>
+    <div class="pill-row"><span class="pill">Contract administration</span><span class="pill">Budget &amp; cash flow</span><span class="pill">Public procurement</span><span class="pill">Scheduling</span><span class="pill">Stakeholder relations</span><span class="pill">ISO 9001</span><span class="pill">ISO 14001</span></div>
+  </article>
+  <article data-reveal class="job">
+    <div class="job-top"><h4>Founder <span class="muted" style="font-weight:400">· NiyaCare Stockholm AB</span></h4><span class="date mono">2011–present</span></div>
+    <p>Responsible for quality management, staff vetting and daily operations in a small service-based organisation.</p>
+  </article>
+  <div data-reveal class="era" style="border-top:1px solid #EFEBE3"><span class="dot"></span><h3 class="mono" style="font-size:12.5px;font-weight:500;letter-spacing:.06em;color:#55504A">Creative &amp; design practice&nbsp;&nbsp;·&nbsp;&nbsp;Athens&nbsp;&nbsp;·&nbsp;&nbsp;1998–2011</h3></div>
+  <article data-reveal class="job"><div class="job-top"><h4>Graphic Designer → Project Manager <span class="muted" style="font-weight:400">· Apolyto S.A.</span></h4><span class="date mono">1998–2009</span></div><p>Visual design and production for commercial clients: layout, image retouching, colour management, print production, client briefs, quality control and delivery coordination.</p></article>
+  <article data-reveal class="job"><div class="job-top"><h4>Creative Consultant <span class="muted" style="font-weight:400">· Angelos Frentzos S.A.</span></h4><span class="date mono">2004–2011</span></div><p>Creative collaboration with fashion designer Angelos Frentzos. Branding, lookbook concepts, visual storytelling, photography direction and runway show material for Milan Fashion Week.</p></article>
+  <article data-reveal class="job"><div class="job-top"><h4>Creative Consultant <span class="muted" style="font-weight:400">· Barbara's Food Company</span></h4><span class="date mono">2009–2010</span></div><p>Branding, packaging design, food styling, photography and visual identity for the launch of Delivery by Barbara.</p></article>
+  <article data-reveal class="job"><div class="job-top"><h4>Design Consultant <span class="muted" style="font-weight:400">· PricewaterhouseCoopers</span></h4><span class="date mono">2004–2009</span></div><p>Design and marketing collaboration on national print advertising and conference materials, supporting communication through clear visual structure and messaging.</p></article>
+</section>
 
-  <!-- ============ EXPERIENCE ============ -->
-  <section style="max-width: 720px; margin: 0 auto; padding: 96px 24px 0">
-    <div data-reveal style="display: flex; align-items: center; gap: 16px; margin-bottom: 8px">
-      <h2 data-t="expH" style="margin: 0; font-family: 'IBM Plex Mono', 'Noto Sans Mono', monospace; font-size: 12px; font-weight: 500; letter-spacing: 0.14em; text-transform: uppercase; color: #8A8378">Experience</h2>
-      <span aria-hidden="true" style="flex: 1; height: 1px; background: #E8E4DB"></span>
-    </div>
+<section data-reveal class="wrap section">
+  <div class="section-head"><h2 class="eyebrow">Education</h2></div>
+  <div><div class="edu-row"><span style="font-size:15.5px;font-weight:600">Medieinstitutet Stockholm <span class="muted" style="font-weight:400">· UX Design</span></span><span class="date mono">Mar–Jun 2026</span></div><div class="edu-row"><span style="font-size:15.5px;font-weight:600">IIEK Technografiko, Athens <span class="muted" style="font-weight:400">· Graphic Design</span></span><span class="date mono">1996</span></div><div class="edu-row"><span style="font-size:15.5px;font-weight:600">1st Lyceum of Kaisariani, Athens</span><span class="date mono">1993</span></div></div>
+</section>
 
-    <!-- Era: Operations -->
-    <div data-reveal style="display: flex; align-items: baseline; gap: 12px; padding: 40px 0 8px">
-      <span aria-hidden="true" style="width: 7px; height: 7px; border-radius: 50%; background: var(--accent); transform: translateY(-1px)"></span>
-      <h3 data-t="era1" style="margin: 0; font-family: 'IBM Plex Mono', 'Noto Sans Mono', monospace; font-size: 12.5px; font-weight: 500; letter-spacing: 0.06em; color: #55504A">Operations&nbsp;&nbsp;·&nbsp;&nbsp;Stockholm&nbsp;&nbsp;·&nbsp;&nbsp;2011&nbsp;→</h3>
-    </div>
+<section data-reveal class="wrap section">
+  <div class="section-head"><h2 class="eyebrow">Languages</h2></div>
+  <div class="langs"><div><strong>Greek</strong><br><span class="mono soft" style="font-size:12px">native</span></div><div><strong>English</strong><br><span class="mono soft" style="font-size:12px">fluent</span></div><div><strong>Swedish</strong><br><span class="mono soft" style="font-size:12px">fluent</span></div><div><strong>German</strong><br><span class="mono soft" style="font-size:12px">basic</span></div></div>
+</section>
 
-    <article data-reveal style="padding: 24px 0 28px; border-bottom: 1px solid #EFEBE3; display: flex; flex-direction: column; gap: 14px">
-      <div style="display: flex; flex-wrap: wrap; align-items: baseline; gap: 6px 16px">
-        <h4 data-t="kondukoTitle" style="margin: 0; font-size: 17px; font-weight: 600; letter-spacing: -0.01em; color: #1C1A17">Founder &amp; CEO <span style="font-weight: 400; color: #6E685F">— Konduko AB</span></h4>
-        <span style="margin-left: auto; font-family: 'IBM Plex Mono', 'Noto Sans Mono', monospace; font-size: 12.5px; color: #8A8378; white-space: nowrap">2012–2025</span>
-      </div>
-      <p data-t="kondukoDesc" style="margin: 0; font-size: 15.5px; line-height: 1.7; color: #55504A; max-width: 62ch; text-wrap: pretty">Founded and ran a staffing company supplying specialist doctors to Swedish public healthcare, maintaining an ISO 9001 and ISO 14001 certified quality management system. Won public procurement tenders independently. Responsible for contract administration and consultant agreements, scheduling across parallel assignments, budgeting, invoicing and cash-flow monitoring, physician recruitment and vetting, and day-to-day client and consultant relations — twelve years of prioritising across competing commitments and balancing the needs of clients, consultants, and regulators.</p>
-      <div style="display: flex; flex-wrap: wrap; gap: 8px; padding-top: 2px">
-        <span data-t="kondukoTag1" style="font-family: 'IBM Plex Mono', 'Noto Sans Mono', monospace; font-size: 11px; color: #6E685F; border: 1px solid #E4DFD5; border-radius: 999px; padding: 4px 11px">Contract administration</span>
-        <span data-t="kondukoTag2" style="font-family: 'IBM Plex Mono', 'Noto Sans Mono', monospace; font-size: 11px; color: #6E685F; border: 1px solid #E4DFD5; border-radius: 999px; padding: 4px 11px">Budget &amp; cash flow</span>
-        <span data-t="kondukoTag3" style="font-family: 'IBM Plex Mono', 'Noto Sans Mono', monospace; font-size: 11px; color: #6E685F; border: 1px solid #E4DFD5; border-radius: 999px; padding: 4px 11px">Public procurement</span>
-        <span style="font-family: 'IBM Plex Mono', 'Noto Sans Mono', monospace; font-size: 11px; color: #6E685F; border: 1px solid #E4DFD5; border-radius: 999px; padding: 4px 11px">ISO 9001</span>
-        <span style="font-family: 'IBM Plex Mono', 'Noto Sans Mono', monospace; font-size: 11px; color: #6E685F; border: 1px solid #E4DFD5; border-radius: 999px; padding: 4px 11px">ISO 14001</span>
-        <span data-t="kondukoTag6" style="font-family: 'IBM Plex Mono', 'Noto Sans Mono', monospace; font-size: 11px; color: #6E685F; border: 1px solid #E4DFD5; border-radius: 999px; padding: 4px 11px">12 years</span>
-      </div>
-    </article>
-
-    <article data-reveal style="padding: 24px 0 28px; display: flex; flex-direction: column; gap: 14px">
-      <div style="display: flex; flex-wrap: wrap; align-items: baseline; gap: 6px 16px">
-        <h4 data-t="niyaTitle" style="margin: 0; font-size: 17px; font-weight: 600; letter-spacing: -0.01em; color: #1C1A17">Founder <span style="font-weight: 400; color: #6E685F">— NiyaCare Stockholm AB</span></h4>
-        <span data-t="niyaDate" style="margin-left: auto; font-family: 'IBM Plex Mono', 'Noto Sans Mono', monospace; font-size: 12.5px; color: #8A8378; white-space: nowrap">2011–present</span>
-      </div>
-      <p data-t="niyaDesc" style="margin: 0; font-size: 15.5px; line-height: 1.7; color: #55504A; max-width: 62ch; text-wrap: pretty">Responsible for quality management, staff vetting, and day-to-day operations in a small service-based organisation.</p>
-    </article>
-
-    <!-- Era: Creative & design practice -->
-    <div data-reveal style="display: flex; align-items: baseline; gap: 12px; padding: 40px 0 8px; border-top: 1px solid #EFEBE3">
-      <span aria-hidden="true" style="width: 7px; height: 7px; border-radius: 50%; background: var(--accent); transform: translateY(-1px)"></span>
-      <h3 data-t="era2" style="margin: 0; font-family: 'IBM Plex Mono', 'Noto Sans Mono', monospace; font-size: 12.5px; font-weight: 500; letter-spacing: 0.06em; color: #55504A">Creative &amp; design practice&nbsp;&nbsp;·&nbsp;&nbsp;Athens&nbsp;&nbsp;·&nbsp;&nbsp;1998–2011</h3>
-    </div>
-
-    <article data-reveal style="padding: 24px 0 28px; border-bottom: 1px solid #EFEBE3; display: flex; flex-direction: column; gap: 14px">
-      <div style="display: flex; flex-wrap: wrap; align-items: baseline; gap: 6px 16px">
-        <h4 data-t="apolytoTitle" style="margin: 0; font-size: 17px; font-weight: 600; letter-spacing: -0.01em; color: #1C1A17">Graphic Designer → Project Manager <span style="font-weight: 400; color: #6E685F">— Apolyto S.A.</span></h4>
-        <span style="margin-left: auto; font-family: 'IBM Plex Mono', 'Noto Sans Mono', monospace; font-size: 12.5px; color: #8A8378; white-space: nowrap">1998–2009</span>
-      </div>
-      <p data-t="apolytoDesc" style="margin: 0; font-size: 15.5px; line-height: 1.7; color: #55504A; max-width: 62ch; text-wrap: pretty">Visual design and production for commercial clients. Layout, image retouching, colour management, print production, client briefs, and quality control. Gradually took on project coordination and responsibility for delivery.</p>
-    </article>
-
-    <article data-reveal style="padding: 24px 0 28px; border-bottom: 1px solid #EFEBE3; display: flex; flex-direction: column; gap: 14px">
-      <div style="display: flex; flex-wrap: wrap; align-items: baseline; gap: 6px 16px">
-        <h4 data-t="frentzosTitle" style="margin: 0; font-size: 17px; font-weight: 600; letter-spacing: -0.01em; color: #1C1A17">Creative Consultant <span style="font-weight: 400; color: #6E685F">— Angelos Frentzos S.A.</span></h4>
-        <span style="margin-left: auto; font-family: 'IBM Plex Mono', 'Noto Sans Mono', monospace; font-size: 12.5px; color: #8A8378; white-space: nowrap">2004–2011</span>
-      </div>
-      <p data-t="frentzosDesc" style="margin: 0; font-size: 15.5px; line-height: 1.7; color: #55504A; max-width: 62ch; text-wrap: pretty">Creative collaboration with fashion designer Angelos Frentzos. Branding, lookbook concepts, visual storytelling, photography direction, and runway show material for Milan Fashion Week.</p>
-    </article>
-
-    <article data-reveal style="padding: 24px 0 28px; border-bottom: 1px solid #EFEBE3; display: flex; flex-direction: column; gap: 14px">
-      <div style="display: flex; flex-wrap: wrap; align-items: baseline; gap: 6px 16px">
-        <h4 data-t="barbaraTitle" style="margin: 0; font-size: 17px; font-weight: 600; letter-spacing: -0.01em; color: #1C1A17">Creative Consultant <span style="font-weight: 400; color: #6E685F">— Barbara's Food Company</span></h4>
-        <span style="margin-left: auto; font-family: 'IBM Plex Mono', 'Noto Sans Mono', monospace; font-size: 12.5px; color: #8A8378; white-space: nowrap">2009–2010</span>
-      </div>
-      <p data-t="barbaraDesc" style="margin: 0; font-size: 15.5px; line-height: 1.7; color: #55504A; max-width: 62ch; text-wrap: pretty">Branding, packaging design, food styling, and photography. Visual identity and launch of Delivery by Barbara.</p>
-    </article>
-
-    <article data-reveal style="padding: 24px 0 4px; display: flex; flex-direction: column; gap: 14px">
-      <div style="display: flex; flex-wrap: wrap; align-items: baseline; gap: 6px 16px">
-        <h4 data-t="pwcTitle" style="margin: 0; font-size: 17px; font-weight: 600; letter-spacing: -0.01em; color: #1C1A17">Design Consultant <span style="font-weight: 400; color: #6E685F">— PricewaterhouseCoopers</span></h4>
-        <span style="margin-left: auto; font-family: 'IBM Plex Mono', 'Noto Sans Mono', monospace; font-size: 12.5px; color: #8A8378; white-space: nowrap">2004–2009</span>
-      </div>
-      <p data-t="pwcDesc" style="margin: 0; font-size: 15.5px; line-height: 1.7; color: #55504A; max-width: 62ch; text-wrap: pretty">Design and marketing collaboration on national print advertising and conference materials. Supported communication through clear visual structure and messaging.</p>
-    </article>
-  </section>
-
-  <!-- ============ EDUCATION ============ -->
-  <section data-reveal style="max-width: 720px; margin: 0 auto; padding: 96px 24px 0">
-    <div style="display: flex; align-items: center; gap: 16px; margin-bottom: 12px">
-      <h2 data-t="eduH" style="margin: 0; font-family: 'IBM Plex Mono', 'Noto Sans Mono', monospace; font-size: 12px; font-weight: 500; letter-spacing: 0.14em; text-transform: uppercase; color: #8A8378">Education</h2>
-      <span aria-hidden="true" style="flex: 1; height: 1px; background: #E8E4DB"></span>
-    </div>
-    <div style="display: flex; flex-direction: column">
-      <div style="display: flex; flex-wrap: wrap; align-items: baseline; gap: 4px 16px; padding: 18px 0; border-bottom: 1px solid #EFEBE3">
-        <span data-t="edu1" style="font-size: 15.5px; font-weight: 600; color: #1C1A17">Medieinstitutet Stockholm <span style="font-weight: 400; color: #6E685F">— UX Design</span></span>
-        <span data-t="edu1Date" style="margin-left: auto; font-family: 'IBM Plex Mono', 'Noto Sans Mono', monospace; font-size: 12.5px; color: #8A8378; white-space: nowrap">Mar–Jun 2026</span>
-      </div>
-      <div style="display: flex; flex-wrap: wrap; align-items: baseline; gap: 4px 16px; padding: 18px 0; border-bottom: 1px solid #EFEBE3">
-        <span data-t="edu2" style="font-size: 15.5px; font-weight: 600; color: #1C1A17">IIEK Technografiko, Athens <span style="font-weight: 400; color: #6E685F">— Graphic Design</span></span>
-        <span style="margin-left: auto; font-family: 'IBM Plex Mono', 'Noto Sans Mono', monospace; font-size: 12.5px; color: #8A8378; white-space: nowrap">1996</span>
-      </div>
-      <div style="display: flex; flex-wrap: wrap; align-items: baseline; gap: 4px 16px; padding: 18px 0">
-        <span data-t="edu3" style="font-size: 15.5px; font-weight: 600; color: #1C1A17">1st Lyceum of Kaisariani, Athens</span>
-        <span style="margin-left: auto; font-family: 'IBM Plex Mono', 'Noto Sans Mono', monospace; font-size: 12.5px; color: #8A8378; white-space: nowrap">1993</span>
-      </div>
-    </div>
-  </section>
-
-  <!-- ============ LANGUAGES ============ -->
-  <section data-reveal style="max-width: 720px; margin: 0 auto; padding: 96px 24px 0">
-    <div style="display: flex; align-items: center; gap: 16px; margin-bottom: 28px">
-      <h2 data-t="langH" style="margin: 0; font-family: 'IBM Plex Mono', 'Noto Sans Mono', monospace; font-size: 12px; font-weight: 500; letter-spacing: 0.14em; text-transform: uppercase; color: #8A8378">Languages</h2>
-      <span aria-hidden="true" style="flex: 1; height: 1px; background: #E8E4DB"></span>
-    </div>
-    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); gap: 20px">
-      <div style="display: flex; flex-direction: column; gap: 4px">
-        <span data-t="langGreek" style="font-size: 15px; font-weight: 600; color: #1C1A17">Greek</span>
-        <span data-t="langGreekLvl" style="font-family: 'IBM Plex Mono', 'Noto Sans Mono', monospace; font-size: 12px; color: #8A8378">native</span>
-      </div>
-      <div style="display: flex; flex-direction: column; gap: 4px">
-        <span data-t="langEnglish" style="font-size: 15px; font-weight: 600; color: #1C1A17">English</span>
-        <span data-t="langEnglishLvl" style="font-family: 'IBM Plex Mono', 'Noto Sans Mono', monospace; font-size: 12px; color: #8A8378">fluent</span>
-      </div>
-      <div style="display: flex; flex-direction: column; gap: 4px">
-        <span data-t="langSwedish" style="font-size: 15px; font-weight: 600; color: #1C1A17">Swedish</span>
-        <span data-t="langSwedishLvl" style="font-family: 'IBM Plex Mono', 'Noto Sans Mono', monospace; font-size: 12px; color: #8A8378">fluent</span>
-      </div>
-      <div style="display: flex; flex-direction: column; gap: 4px">
-        <span data-t="langGerman" style="font-size: 15px; font-weight: 600; color: #1C1A17">German</span>
-        <span data-t="langGermanLvl" style="font-family: 'IBM Plex Mono', 'Noto Sans Mono', monospace; font-size: 12px; color: #8A8378">basic</span>
-      </div>
-    </div>
-  </section>
-
-  <!-- ============ CLOSING ============ -->
-  <section data-reveal style="max-width: 720px; margin: 0 auto; padding: 120px 24px 96px">
-    <p data-t="closing" style="margin: 0; font-family: 'Fraunces', 'Literata', serif; font-style: italic; font-weight: 400; font-size: clamp(23px, 4vw, 29px); line-height: 1.45; color: #1C1A17; text-wrap: balance">The person who keeps the details in order, so that everyone else is free to do their best work. <a class="closing-link" href="mailto:gkoupidis@gmail.com">Get in touch.</a></p>
-  </section>
-
-  <!-- ============ FOOTER ============ -->
-  <footer style="border-top: 1px solid #EFEBE3">
-    <p data-t="footer" style="max-width: 720px; margin: 0 auto; padding: 36px 24px 64px; font-family: 'IBM Plex Mono', 'Noto Sans Mono', monospace; font-size: 12px; line-height: 1.8; color: #8A8378">Ioannis Koupidis&nbsp;&nbsp;·&nbsp;&nbsp;Set in Fraunces, Inter &amp; IBM Plex Mono</p>
-  </footer>
-
+<section data-reveal class="wrap closing"><p class="serif">The person who keeps the details in order, so artists, collaborators and teams are free to do their best work. <a class="closing-link" href="mailto:gkoupidis@gmail.com">Get in touch.</a></p></section>
+<footer><p class="wrap mono">Ioannis Koupidis&nbsp;&nbsp;·&nbsp;&nbsp;Set in Fraunces, Inter &amp; IBM Plex Mono</p></footer>
 </main>
-
 <script>
-(function () {
+(function(){
   document.documentElement.classList.add('js');
-  var reduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
-  if (reduced) document.documentElement.classList.add('reduced-motion');
-
-  /* ============ Translations ============
-     Single source of truth for every visible string, keyed per language.
-     - Elements are matched by their data-t attribute (data-t="profileH" <-> I18N[lang].profileH).
-     - Keys starting with "_" are metadata: document title, portrait alt text,
-       contact-nav label, and the typewriter word list.
-     - The static HTML above is the English fallback for visitors without
-       JavaScript, search engines, and link previews. When editing English copy,
-       update it in BOTH places (static HTML + I18N.en). Other languages: dict only. */
-  var EM = '<em id="role-word" style="font-style: italic; color: var(--accent)">';
-  var CARET = '</em><span class="caret" aria-hidden="true"></span>';
-  var STRONG = '<strong style="font-weight: 600; color: #1C1A17">';
-  var SPAN = '<span style="font-weight: 400; color: #6E685F">';
-  var SEP = '&nbsp;&nbsp;·&nbsp;&nbsp;';
-  var MAIL = '<a class="closing-link" href="mailto:gkoupidis@gmail.com">';
-
-  var I18N = {
-    en: {
-      _title: 'Ioannis Koupidis — UX & Operations',
-      _alt: 'Portrait of Ioannis Koupidis',
-      _nav: 'Contact',
-      _words: ['project manager.', 'creative consultant.', 'founder.', 'designer.'],
-      kicker: 'Curriculum vitae' + SEP + 'Stockholm, Sweden',
-      name: 'Ioannis Koupidis<span style="color: var(--accent)">.</span>',
-      tagline: 'Twenty years of making things work as a ' + EM + 'project manager.' + CARET,
-      location: 'Stockholm, Sweden',
-      pdfBtn: 'Download PDF',
-      profileH: 'Profile',
-      profileText: 'Multidisciplinary ' + STRONG + 'designer and founder</strong> with 20+ years across visual communication, brand experience, and business operations — a decade in Athens working with fashion houses, food brands, and agencies, then twelve years in Stockholm running a staffing company with an ' + STRONG + 'ISO 9001 and ISO 14001 certified</strong> quality management system, coordinating contracts, schedules, budgets, and people across parallel assignments. Recently completed a UX design program at Medieinstitutet Stockholm and now pivoting deliberately into ' + STRONG + 'UX research and product work</strong>, with a method grounded in user interviews, usability testing, clear documentation, and attention to detail.',
-      skillsLine: 'User interviews' + SEP + 'usability testing' + SEP + 'personas &amp; journey mapping' + SEP + 'contract administration' + SEP + 'scheduling' + SEP + 'budgeting &amp; cash flow' + SEP + 'public procurement' + SEP + 'stakeholder relations',
-      workH: 'Selected work',
-      agentTitle: 'Agent X ' + SPAN + '— UX case study</span>',
-      agentDesc: 'Redesigning new-player onboarding for a notoriously punishing hardcore shooter. Eight player interviews, two personas, an emotional journey map, annotated wireframes, and three think-aloud usability sessions, from raw research to a validated concept for an in-world guidance companion.',
-      agentTag1: 'User research', agentTag2: 'Usability testing', agentTag3: 'Wireframes',
-      agentLink: 'View case study',
-      expH: 'Experience',
-      era1: 'Operations' + SEP + 'Stockholm' + SEP + '2011&nbsp;→',
-      kondukoTitle: 'Founder &amp; CEO ' + SPAN + '— Konduko AB</span>',
-      kondukoDesc: 'Founded and ran a staffing company supplying specialist doctors to Swedish public healthcare, maintaining an ISO 9001 and ISO 14001 certified quality management system. Won public procurement tenders independently. Responsible for contract administration and consultant agreements, scheduling across parallel assignments, budgeting, invoicing and cash-flow monitoring, physician recruitment and vetting, and day-to-day client and consultant relations — twelve years of prioritising across competing commitments and balancing the needs of clients, consultants, and regulators.',
-      kondukoTag1: 'Contract administration', kondukoTag2: 'Budget &amp; cash flow', kondukoTag3: 'Public procurement', kondukoTag6: '12 years',
-      niyaTitle: 'Founder ' + SPAN + '— NiyaCare Stockholm AB</span>',
-      niyaDate: '2011–present',
-      niyaDesc: 'Responsible for quality management, staff vetting, and day-to-day operations in a small service-based organisation.',
-      era2: 'Creative &amp; design practice' + SEP + 'Athens' + SEP + '1998–2011',
-      apolytoTitle: 'Graphic Designer → Project Manager ' + SPAN + '— Apolyto S.A.</span>',
-      apolytoDesc: 'Visual design and production for commercial clients. Layout, image retouching, colour management, print production, client briefs, and quality control. Gradually took on project coordination and responsibility for delivery.',
-      frentzosTitle: 'Creative Consultant ' + SPAN + '— Angelos Frentzos S.A.</span>',
-      frentzosDesc: 'Creative collaboration with fashion designer Angelos Frentzos. Branding, lookbook concepts, visual storytelling, photography direction, and runway show material for Milan Fashion Week.',
-      barbaraTitle: 'Creative Consultant ' + SPAN + '— Barbara&#39;s Food Company</span>',
-      barbaraDesc: 'Branding, packaging design, food styling, and photography. Visual identity and launch of Delivery by Barbara.',
-      pwcTitle: 'Design Consultant ' + SPAN + '— PricewaterhouseCoopers</span>',
-      pwcDesc: 'Design and marketing collaboration on national print advertising and conference materials. Supported communication through clear visual structure and messaging.',
-      eduH: 'Education',
-      edu1: 'Medieinstitutet Stockholm ' + SPAN + '— UX Design</span>',
-      edu1Date: 'Mar–Jun 2026',
-      edu2: 'IIEK Technografiko, Athens ' + SPAN + '— Graphic Design</span>',
-      edu3: '1st Lyceum of Kaisariani, Athens',
-      langH: 'Languages',
-      langGreek: 'Greek', langGreekLvl: 'native',
-      langEnglish: 'English', langEnglishLvl: 'fluent',
-      langSwedish: 'Swedish', langSwedishLvl: 'fluent',
-      langGerman: 'German', langGermanLvl: 'basic',
-      closing: 'The person who keeps the details in order, so that everyone else is free to do their best work. ' + MAIL + 'Get in touch.</a>',
-      footer: 'Ioannis Koupidis' + SEP + 'Set in Fraunces, Inter &amp; IBM Plex Mono'
-    },
-    sv: {
-      _title: 'Ioannis Koupidis — UX & Operations',
-      _alt: 'Porträtt av Ioannis Koupidis',
-      _nav: 'Kontakt',
-      _words: ['projektledare.', 'kreativ konsult.', 'grundare.', 'designer.'],
-      kicker: 'Curriculum vitae' + SEP + 'Stockholm, Sverige',
-      name: 'Ioannis Koupidis<span style="color: var(--accent)">.</span>',
-      tagline: 'Tjugo år av att få saker att fungera — som ' + EM + 'projektledare.' + CARET,
-      location: 'Stockholm, Sverige',
-      pdfBtn: 'Ladda ner PDF',
-      profileH: 'Profil',
-      profileText: 'Multidisciplinär ' + STRONG + 'designer och grundare</strong> med över 20 års erfarenhet inom visuell kommunikation, varumärkesupplevelse och affärsverksamhet — ett decennium i Aten med modehus, livsmedelsvarumärken och byråer, därefter tolv år i Stockholm där jag drivit ett bemanningsföretag med ett ' + STRONG + 'ISO 9001- och ISO 14001-certifierat</strong> kvalitetsledningssystem och samordnat avtal, scheman, budgetar och människor i parallella uppdrag. Nyligen avslutad UX-designutbildning vid Medieinstitutet Stockholm — nu ett medvetet skifte mot ' + STRONG + 'UX-research och produktarbete</strong>, med ett arbetssätt grundat i användarintervjuer, användbarhetstester, tydlig dokumentation och känsla för detaljer.',
-      skillsLine: 'Användarintervjuer' + SEP + 'användbarhetstester' + SEP + 'personas &amp; kundresor' + SEP + 'avtalsadministration' + SEP + 'schemaläggning' + SEP + 'budget &amp; kassaflöde' + SEP + 'offentlig upphandling' + SEP + 'intressentrelationer',
-      workH: 'Utvalda arbeten',
-      agentTitle: 'Agent X ' + SPAN + '— UX-fallstudie</span>',
-      agentDesc: 'Omdesign av introduktionen för nya spelare i ett ökänt krävande hardcore-shooterspel. Åtta spelarintervjuer, två personas, en emotionell användarresa, annoterade wireframes och tre think-aloud-användbarhetstester — från rå research till ett validerat koncept för en guidande följeslagare i spelet.',
-      agentTag1: 'Användarresearch', agentTag2: 'Användbarhetstest', agentTag3: 'Wireframes',
-      agentLink: 'Se fallstudien',
-      expH: 'Erfarenhet',
-      era1: 'Verksamhet' + SEP + 'Stockholm' + SEP + '2011&nbsp;→',
-      kondukoTitle: 'Grundare &amp; VD ' + SPAN + '— Konduko AB</span>',
-      kondukoDesc: 'Grundade och drev ett bemanningsföretag som försåg svensk offentlig sjukvård med specialistläkare, med ett ISO 9001- och ISO 14001-certifierat kvalitetsledningssystem. Vann offentliga upphandlingar på egen hand. Ansvarig för avtalsadministration och konsultavtal, schemaläggning av parallella uppdrag, budget, fakturering och kassaflödesuppföljning, rekrytering och granskning av läkare samt dagliga kund- och konsultrelationer — tolv år av att prioritera bland konkurrerande åtaganden och balansera behoven hos kunder, konsulter och myndigheter.',
-      kondukoTag1: 'Avtalsadministration', kondukoTag2: 'Budget &amp; kassaflöde', kondukoTag3: 'Offentlig upphandling', kondukoTag6: '12 år',
-      niyaTitle: 'Grundare ' + SPAN + '— NiyaCare Stockholm AB</span>',
-      niyaDate: '2011–nu',
-      niyaDesc: 'Ansvarig för kvalitetsledning, personalgranskning och daglig drift i en mindre tjänsteorganisation.',
-      era2: 'Kreativt &amp; designarbete' + SEP + 'Aten' + SEP + '1998–2011',
-      apolytoTitle: 'Grafisk designer → Projektledare ' + SPAN + '— Apolyto S.A.</span>',
-      apolytoDesc: 'Visuell design och produktion för kommersiella kunder. Layout, bildretusch, färghantering, tryckproduktion, kundbriefer och kvalitetskontroll. Tog gradvis över projektsamordning och leveransansvar.',
-      frentzosTitle: 'Kreativ konsult ' + SPAN + '— Angelos Frentzos S.A.</span>',
-      frentzosDesc: 'Kreativt samarbete med modedesignern Angelos Frentzos. Varumärkesarbete, lookbook-koncept, visuellt berättande, fotoregi och material till visningar under modeveckan i Milano.',
-      barbaraTitle: 'Kreativ konsult ' + SPAN + '— Barbara&#39;s Food Company</span>',
-      barbaraDesc: 'Varumärkesarbete, förpackningsdesign, matstyling och fotografering. Visuell identitet och lansering av Delivery by Barbara.',
-      pwcTitle: 'Designkonsult ' + SPAN + '— PricewaterhouseCoopers</span>',
-      pwcDesc: 'Design- och marknadsföringssamarbete kring nationell tryckt annonsering och konferensmaterial. Stöttade kommunikationen genom tydlig visuell struktur och tydliga budskap.',
-      eduH: 'Utbildning',
-      edu1: 'Medieinstitutet Stockholm ' + SPAN + '— UX Design</span>',
-      edu1Date: 'mars–juni 2026',
-      edu2: 'IIEK Technografiko, Aten ' + SPAN + '— Grafisk design</span>',
-      edu3: 'Gymnasieutbildning, Kaisariani, Aten',
-      langH: 'Språk',
-      langGreek: 'Grekiska', langGreekLvl: 'modersmål',
-      langEnglish: 'Engelska', langEnglishLvl: 'flytande',
-      langSwedish: 'Svenska', langSwedishLvl: 'flytande',
-      langGerman: 'Tyska', langGermanLvl: 'grundläggande',
-      closing: 'Personen som håller ordning på detaljerna, så att alla andra kan göra sitt bästa arbete. ' + MAIL + 'Hör av dig.</a>',
-      footer: 'Ioannis Koupidis' + SEP + 'Satt i Fraunces, Inter &amp; IBM Plex Mono'
-    }
-  };
-
-  var currentLang = 'en';
-  var words = I18N.en._words;
-
-  /* Apply a language: swap every data-t node, sync <html lang>, document
-     title, alt/aria labels, switcher button states, and the typewriter. */
-  function setLang(lang) {
-    if (!I18N[lang]) return;
-    currentLang = lang;
-    words = I18N[lang]._words;
-    document.documentElement.lang = lang;
-    document.title = I18N[lang]._title;
-
-    var nodes = document.querySelectorAll('[data-t]');
-    for (var i = 0; i < nodes.length; i++) {
-      var key = nodes[i].getAttribute('data-t');
-      if (I18N[lang][key] !== undefined) nodes[i].innerHTML = I18N[lang][key];
-    }
-    var portrait = document.getElementById('portrait');
-    if (portrait) portrait.alt = I18N[lang]._alt;
-    var nav = document.getElementById('contact-nav');
-    if (nav) nav.setAttribute('aria-label', I18N[lang]._nav);
-
-    var btns = document.querySelectorAll('.lang-btn');
-    for (var j = 0; j < btns.length; j++) {
-      btns[j].setAttribute('aria-pressed', btns[j].getAttribute('data-lang') === lang ? 'true' : 'false');
-    }
-
-    // Reset typewriter to the first word of the new language
-    wordIndex = 0;
-    phase = 'hold';
-    var roleEl = document.getElementById('role-word');
-    if (roleEl) roleEl.textContent = words[0];
-  }
-
-  var switchBtns = document.querySelectorAll('.lang-btn');
-  for (var b = 0; b < switchBtns.length; b++) {
-    switchBtns[b].addEventListener('click', function () {
-      setLang(this.getAttribute('data-lang'));
-    });
-  }
-
-  /* ============ Typewriter role word ============ */
-  var wordIndex = 0;
-  var phase = 'hold';
-  if (!reduced) {
-    var step = function () {
-      var roleEl = document.getElementById('role-word');
-      if (!roleEl) { setTimeout(step, 500); return; }
-      var cur = roleEl.textContent;
-      var delay = 70;
-      if (phase === 'hold') {
-        phase = 'deleting';
-        delay = 2400;
-      } else if (phase === 'deleting') {
-        if (cur.length > 0) {
-          roleEl.textContent = cur.slice(0, -1);
-          delay = 45;
-        } else {
-          wordIndex = (wordIndex + 1) % words.length;
-          phase = 'typing';
-          delay = 420;
-        }
-      } else {
-        var next = words[wordIndex];
-        if (cur.length < next.length) {
-          roleEl.textContent = next.slice(0, cur.length + 1);
-          delay = 75;
-        } else {
-          phase = 'hold';
-          delay = 0;
-        }
-      }
-      setTimeout(step, delay);
-    };
-    setTimeout(step, 1200);
-  }
-
-  /* ============ Scroll reveal ============ */
-  if (!reduced) {
-    var els = Array.prototype.slice.call(document.querySelectorAll('[data-reveal]'));
-    var pending = new Set(els);
-    var reveal = function (el) {
-      el.classList.add('is-visible');
-      pending.delete(el);
-      io.unobserve(el);
-    };
-    var sweep = function () {
-      pending.forEach(function (el) {
-        if (el.getBoundingClientRect().top < window.innerHeight * 0.94) reveal(el);
-      });
-      if (pending.size === 0) window.removeEventListener('scroll', sweep);
-    };
-    var io = new IntersectionObserver(function (entries) {
-      entries.forEach(function (e) { if (e.isIntersecting) reveal(e.target); });
-      sweep();
-    }, { rootMargin: '0px 0px -6% 0px', threshold: 0.05 });
-    els.forEach(function (el) { io.observe(el); });
-    window.addEventListener('scroll', sweep, { passive: true });
-  }
+  var reduced=window.matchMedia('(prefers-reduced-motion: reduce)').matches;if(reduced)document.documentElement.classList.add('reduced-motion');
+  var words=['people.','projects.','budgets.','creative work.'];
+  var wordIndex=0,phase='hold';
+  if(!reduced){var step=function(){var role=document.getElementById('role-word');if(!role){setTimeout(step,500);return}var cur=role.textContent,delay=70;if(phase==='hold'){phase='deleting';delay=2400}else if(phase==='deleting'){if(cur.length>0){role.textContent=cur.slice(0,-1);delay=45}else{wordIndex=(wordIndex+1)%words.length;phase='typing';delay=420}}else{var next=words[wordIndex];if(cur.length<next.length){role.textContent=next.slice(0,cur.length+1);delay=75}else{phase='hold';delay=0}}setTimeout(step,delay)};setTimeout(step,1200)}
+  if(!reduced){var els=[].slice.call(document.querySelectorAll('[data-reveal]'));var pending=new Set(els);var io=new IntersectionObserver(function(entries){entries.forEach(function(e){if(e.isIntersecting){e.target.classList.add('is-visible');pending.delete(e.target);io.unobserve(e.target)}})},{rootMargin:'0px 0px -6% 0px',threshold:.05});els.forEach(function(el){io.observe(el)});}
 })();
 </script>
-
 </body>
 </html>
